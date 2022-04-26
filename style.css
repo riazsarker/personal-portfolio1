@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400&family=Roboto:wght@400;500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: gray;
+}
+
+.left {
+    width: 40%;
+}
+
+.left a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(45deg, rgb(239, 116, 116), rgb(247, 6, 6));
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.right {
+    width: 40%;
+}
+
+.right img {
+    width: 100%;
+}
+
+.namecolor {
+    color: brown;
+}
+
+.part-one {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background: url(header-bg.png) no-repeat;
+}
+
+.part-two {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url(biography-bg.png) no-repeat;
+}
+
+.w1 {
+    width: 30%;
+}
+
+.w1 img {
+    width: 100%;
+}
+
+.w2 img {
+    width: 100%;
+}
+
+.w3 img {
+    width: 100%;
+}
+
+.w2 {
+    width: 30%;
+}
+
+.w3 {
+    width: 30%;
+}
+
+.part-three h2 {
+    text-align: center;
+}
+
+.part-three {
+    background: url(latest-work-bg.png) no-repeat;
+}
+
+.work {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lastpart h2 {
+    text-align: center;
+}
+
+.name {
+    width: 10%;
+    margin: auto;
+}
+
+.name p {
+    font-size: 9px;
+}
+
+.lastpart p {
+    width: 40%;
+    margin: auto;
+}
+
+.contact {
+    width: 50%;
+    background-image: linear-gradient(45deg, purple, rgb(97, 49, 97));
+    padding: 20px;
+    margin: auto;
+}
+
+.contact h5 {
+    text-align: center;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.contact h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
